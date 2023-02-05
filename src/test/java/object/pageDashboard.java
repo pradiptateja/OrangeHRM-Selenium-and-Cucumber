@@ -18,4 +18,14 @@ public class pageDashboard {
     public By getBtn_PIM() {
         return btn_PIM;
     }
+
+    By btn_myInfo = By.xpath("//a[contains(@href,'viewMyDetails')]");
+    public By getBtn_myInfo() {
+        return btn_myInfo;
+    }
+
+    By btn_punch = By.xpath("//button[contains(@class,'attendance')]");
+    public By getBtn_punch() {
+        return btn_punch;
+    }
 }

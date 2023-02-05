@@ -14,10 +14,6 @@ public class employeeLogin extends setUp {
     pageLogin pageLogin = new pageLogin();
     accessFiles accessFiles = new accessFiles();
 
-    String fileEmployeeUsername = "src/test/resources/files/employeeUsername.txt";
-    String fileEmployeePassword = "src/test/resources/files/employeePassword.txt";
-    String fileEmployee3Username = "src/test/resources/files/employee3Username.txt";
-    String fileEmployee3Password = "src/test/resources/files/employee3Password.txt";
 
 
     @When("User inputs registered username as employee")

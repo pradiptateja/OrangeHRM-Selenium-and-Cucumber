@@ -19,10 +19,10 @@ public class login extends setUp {
     Faker faker = new Faker();
 
     accessFiles accessFiles = new accessFiles();
-    String fileUsername = "src/test/resources/files/username.txt";
-    String filePassword = "src/test/resources/files/password.txt";
-    String fileInvalidUsername = "src/test/resources/files/invalidUsername.txt";
-    String fileInvalidPassword = "src/test/resources/files/invalidPassword.txt";
+    String fileUsername = "src/test/resources/files/GlobalVariable/username.txt";
+    String filePassword = "src/test/resources/files/GlobalVariable/password.txt";
+    String fileInvalidUsername = "src/test/resources/files/GlobalVariable/invalidUsername.txt";
+    String fileInvalidPassword = "src/test/resources/files/GlobalVariable/invalidPassword.txt";
 
 
 

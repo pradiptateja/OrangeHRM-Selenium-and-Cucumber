@@ -53,15 +53,6 @@ public class pagePIM {
         return input_employeePasswordConfirm;
     }
 
-    By btn_save = By.xpath("//button[@type='submit']");
-    public By getBtn_save() {
-        return btn_save;
-    }
-
-    By toaster_success = By.xpath("//p[text()='Successfully Saved']");
-    public By getToaster_success() {
-        return toaster_success;
-    }
 
     public By getHeader_createdName(String firstName, String lastName) {
         By header_createdName = By.xpath("//h6[text()='"+ firstName+" " +lastName+ "']");
