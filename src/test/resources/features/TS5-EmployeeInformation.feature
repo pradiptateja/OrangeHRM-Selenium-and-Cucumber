@@ -1,6 +1,6 @@
-Feature: Employee Login Functionality
+Feature: Employee Information Functionality
   @Positive
-  Scenario: HRM-14, HRM-15, HRM-16, HRM-17 Ensure employee can adds Nickname, Nationality, Marital Status, Gender
+  Scenario: HRM-15, HRM-16, HRM-17, HRM-18 Ensure employee can adds Nickname, Nationality, Marital Status, Gender
     Given User is at Login page
     When User inputs registered username as employee
     And User inputs correct password as employee
@@ -16,7 +16,7 @@ Feature: Employee Login Functionality
     Then User is notified successfully updated
 
   @Negative
-  Scenario: HRM-18, HRM-19, HRM-20 Ensure employee failed edit Employee ID, SSN and SIN, Date of birth
+  Scenario: HRM-19, HRM-20, HRM-21 Ensure employee failed edit Employee ID, SSN and SIN, Date of birth
     Given User is at Login page
     When User inputs registered username as employee
     And User inputs correct password as employee
@@ -27,7 +27,7 @@ Feature: Employee Login Functionality
     Then user cannot edit SIN
 
   @Negative
-  Scenario: HRM-20 Ensure employee failed to edit Driver License and Expiry Date
+  Scenario: HRM-22 Ensure employee failed to edit Driver License and Expiry Date
     Given User is at Login page
     When User inputs registered username as employee
     And User inputs correct password as employee
@@ -37,7 +37,7 @@ Feature: Employee Login Functionality
     Then user cannot edit Expiry Date
 
   @Positive
-  Scenario: HRM-21 Ensure employee can add attachment
+  Scenario: HRM-23 Ensure employee can add attachment
     Given User is at Login page
     When User inputs registered username as employee
     And User inputs correct password as employee
@@ -49,7 +49,7 @@ Feature: Employee Login Functionality
     Then user is notified success message
 
   @Negative
-  Scenario: HRM-22 Ensure employee failed add attachment
+  Scenario: HRM-24 Ensure employee failed add attachment
     Given User is at Login page
     When User inputs registered username as employee
     And User inputs correct password as employee
@@ -60,7 +60,7 @@ Feature: Employee Login Functionality
     Then user is notified attachment size exceeded
 
   @Negative
-  Scenario: HRM-23 Ensure employee failed save without uploading any documents
+  Scenario: HRM-25 Ensure employee failed save without uploading any documents
     Given User is at Login page
     When User inputs registered username as employee
     And User inputs correct password as employee

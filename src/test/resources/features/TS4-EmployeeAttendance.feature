@@ -1,6 +1,6 @@
-Feature: Employee Login Functionality
+Feature: Employee Attendance Functionality
   @Positive
-  Scenario: HRM-10, HRM 11 Ensure employee Punch in and Punch Out
+  Scenario: HRM-11, HRM-12 Ensure employee Punch in and Punch Out
     Given User is at Login page
     When User inputs registered username as employee
     And User inputs correct password as employee
@@ -15,7 +15,7 @@ Feature: Employee Login Functionality
     Then user is notified success message
 
   @Positive
-  Scenario: HRM-12 Ensure employee Punch in without inserting notes
+  Scenario: HRM-13 Ensure employee Punch in without inserting notes
     Given User is at Login page
     When User inputs registered username as employee
     And User inputs correct password as employee
@@ -25,7 +25,7 @@ Feature: Employee Login Functionality
     Then user is notified success message
 
   @Positive
-  Scenario: HRM-13 Ensure employee Punch out without inserting notes
+  Scenario: HRM-14 Ensure employee Punch out without inserting notes
     Given User is at Login page
     When User inputs registered username as employee
     And User inputs correct password as employee

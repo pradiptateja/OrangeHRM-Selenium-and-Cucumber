@@ -9,7 +9,7 @@ public class setUp {
     protected static WebDriverWait wait;
 
     protected static int duration = 30;
-    protected static Boolean isHeadless = false;
+    protected static Boolean isHeadless = true;
 
     protected static String WebURL = "https://opensource-demo.orangehrmlive.com/";
 
